@@ -1,0 +1,120 @@
+.signalign{
+
+    display: flex;
+    gap: 1.8rem;
+    align-items: start;
+    padding:inline;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.signWrap{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+ #text_box{
+    width: 280px;
+    height: 48px;
+    border: 2px solid black;
+    padding: 0.8rem;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+#check_box{
+    width: 24px;
+    height: 24px;
+    padding-right: 1rem;
+    border: 2px solid black
+}
+#error{
+    color: red;
+}
+.keepme{
+    display: flex;
+    label{
+        display: flex;
+        gap: 0.8rem;
+    }
+}
+
+.signForm{
+    width: 50%;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.formalign{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.loginbg{
+   display: flex;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.button{
+
+    width: 280px;
+    height: 48px;
+    background-color: #3C3C3C;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.signtext{
+
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+.social-btn{
+
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    gap:1rem;
+    background-color: transparent;
+}
+
+.social-icons{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.newUser{
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a{
+    font-weight: 600;
+}
+
+.bgimg{
+
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .loginbg{
+        display: none;
+    }
+}

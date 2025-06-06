@@ -1,0 +1,42 @@
+.carder{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.flagdetials{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.flag{
+
+
+    width: 127px;
+    height: 96px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .flag {
+        
+        width: 48px;
+        height: 48px;
+       
+      }
+    
+    
+    }
